@@ -5,6 +5,6 @@ Commands for getting started:
 
 Run server: `bundle exec rerun foreman start`
 
-Create migration: `./script/create_migration.rb`
+Create migration: `./script/create_migration.rb <migration_name>`
 
 Run migrations: `./script/run_migrations.rb`
