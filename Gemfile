@@ -6,6 +6,8 @@ gem "unicorn"
 gem "pathological"
 gem "pinion"
 gem "sass"
+gem "sequel"
+gem "pg"
 
 group :development do
   gem "foreman"
