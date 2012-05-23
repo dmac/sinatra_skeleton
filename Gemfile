@@ -8,6 +8,7 @@ gem "pinion"
 gem "sass"
 gem "sequel"
 gem "pg"
+gem "bourbon"
 
 group :development do
   gem "foreman"

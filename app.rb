@@ -1,6 +1,7 @@
 require "bundler/setup"
 require "pathological"
 require "sinatra"
+require "bourbon"
 
 class App < Sinatra::Base
   def initialize(pinion)
