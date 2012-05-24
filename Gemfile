@@ -8,6 +8,7 @@ gem "pathological"
 gem "pinion"
 gem "sass"
 gem "bourbon"
+gem "coffee-script"
 
 gem "sequel"
 gem "pg"
