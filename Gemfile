@@ -16,5 +16,5 @@ gem "pg"
 
 group :development do
   gem "foreman"
-  gem "rerun"
+  gem "sinatra-reloader"
 end

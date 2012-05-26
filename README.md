@@ -3,7 +3,7 @@ models and migrations using Sequel, and Foreman for local development and genera
 
 Commands for getting started:
 
-Run server: `bundle exec rerun foreman start`
+Run server: `bundle exec foreman start`
 
 Create migration: `./script/create_migration.rb <migration_name>`
 
