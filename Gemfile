@@ -9,6 +9,7 @@ gem "pinion"
 gem "sass"
 gem "bourbon"
 gem "coffee-script"
+gem "sinatra-content-for2"
 
 gem "sequel"
 gem "pg"
