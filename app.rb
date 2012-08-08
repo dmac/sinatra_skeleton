@@ -9,8 +9,6 @@ require "coffee-script"
 require "sinatra/content_for2"
 
 class App < Sinatra::Base
-  include Pinion::SinatraHelpers
-
   set :pinion, Pinion::Server.new("/assets")
 
   configure do
@@ -25,7 +23,7 @@ class App < Sinatra::Base
   pinion.watch "public"
   pinion.watch "#{Gem.loaded_specs["bourbon"].full_gem_path}/app/assets/stylesheets"
 
-  helpers Sinatra::ContentFor2
+  helpers Sinatra::ContentFor2, Pinion::SinatraHelpers
 
   get "/" do
     erb :index
